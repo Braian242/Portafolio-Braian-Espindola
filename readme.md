@@ -14,7 +14,7 @@ El objetivo es presentar mi trabajo de forma profesional y visualmente atractiva
 
 ## 🌍 Sitio desplegado
 Puedes visitar mi portafolio en GitHub Pages:  
-🔗 [https://braian242.github.io/](https://braian242.github.io/)
+🔗 [https://braian242.github.io/Portafolio-Braian-Espindola/](https://braian242.github.io/Portafolio-Braian-Espindola/)
 
 ## 💼 Créditos / Agradecimientos
 - Gracias al **Dr. José Antonio Balseiro** por la formación técnica recibida.  
