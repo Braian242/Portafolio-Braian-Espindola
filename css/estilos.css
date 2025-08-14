@@ -83,3 +83,57 @@ nav a:hover {
   height: 100%;
   object-fit: cover;
 } 
+
+/* SECCIÓN DE PROYECTOS */
+.proyectos {
+  padding: 60px 20px;
+  background-color: #79a7c6; /* mismo color que hero */
+  text-align: center;
+  color: #ECF0F1; /* texto gris claro como header */
+}
+
+.proyectos h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #ECF0F1; /* título en gris claro */
+}
+
+.contenedor-proyectos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tarjeta-proyecto {
+  background-color: #2C3E50; /* color header */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #ECF0F1;
+}
+
+.tarjeta-proyecto img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.tarjeta-proyecto h3 {
+  margin-bottom: 10px;
+  color: #ECF0F1;
+}
+
+.tarjeta-proyecto p {
+  font-size: 14px;
+  color: #ECF0F1;
+}
+
+.tarjeta-proyecto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+
