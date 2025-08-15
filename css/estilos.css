@@ -1,3 +1,10 @@
+/*Escrol sueave*/
+html {
+    scroll-behavior: smooth;
+}
+
+
+
 /* ENCABEZADO */
 header {
     display: flex;
@@ -324,54 +331,48 @@ nav a:hover {
     transform: scale(1.05);
 }
 
-/* SECCIÓN DE REDES Y CV */
-.redes-cv {
-    padding: 60px 20px;
-    background-color: #79a7c6;
-    text-align: center;
-    color: #ECF0F1;
-}
 
-.redes-cv h2 {
-    font-size: 32px;
-    margin-bottom: 40px;
-}
-
-.contenedor-redes {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.red-social {
+/* FOOTER */
+.footer {
     background-color: #2C3E50;
-    padding: 15px 20px;
-    border-radius: 12px;
+    color: #ECF0F1;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-decoration: none;
-    color: #ECF0F1;
-    width: 120px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    gap: 15px;
 }
 
-.red-social img {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 10px;
-}
-
-.red-social span {
-    font-weight: bold;
+.footer p {
     font-size: 14px;
+    margin: 0;
 }
 
-.red-social:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+.footer-redes {
+    display: flex;
+    gap: 20px;
 }
+
+.footer-redes a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.footer-redes a:hover {
+    transform: scale(1.2);
+}
+
+.footer-redes img {
+    width: 30px;
+    height: 30px;
+}
+
 
 
 

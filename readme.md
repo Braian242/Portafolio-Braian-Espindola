@@ -17,7 +17,7 @@ Puedes visitar mi portafolio en GitHub Pages:
 🔗 [https://braian242.github.io/Portafolio-Braian-Espindola/](https://braian242.github.io/Portafolio-Braian-Espindola/)
 
 ## 💼 Créditos / Agradecimientos
-- Gracias al **Dr. José Antonio Balseiro** por la formación técnica recibida.  
+- Gracias al **Profe Jose Luis** por la formación y técnica recibida.  
 - Inspiración de tutoriales y recursos educativos de desarrollo web.  
 
 ---
