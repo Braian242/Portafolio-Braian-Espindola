@@ -1,4 +1,4 @@
-/*Escrol sueave*/
+/*Escrol suave*/
 html {
     scroll-behavior: smooth;
 }
@@ -371,6 +371,89 @@ nav a:hover {
 .footer-redes img {
     width: 30px;
     height: 30px;
+}
+
+/* =================== RESPONSIVE =================== */
+
+/* Tablets y pantallas medianas */
+@media screen and (max-width: 992px) {
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-text {
+        padding-right: 0;
+    }
+
+    .contenedor-proyectos {
+        justify-content: center;
+    }
+
+    .tarjeta-proyecto {
+        width: 80%;
+        max-width: 350px;
+    }
+
+    .contenedor-habilidades {
+        gap: 20px;
+    }
+
+    .tarjeta-habilidad {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Móviles y pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hero {
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .hero-text h2 {
+        font-size: 20px;
+    }
+
+    .hero-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .tarjeta-proyecto {
+        width: 90%;
+    }
+
+    .contenedor-experiencia {
+        gap: 15px;
+        padding: 0 10px;
+    }
+
+    .tarjeta-experiencia {
+        padding: 15px;
+    }
+
+    .formulario-contacto {
+        padding: 0 10px;
+    }
 }
 
 
